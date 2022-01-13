@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="k0">
-
+<html lang="ko">
 <head>
-    <title>HTML 요소 래퍼런스</title>
-    <base href="./css">
     <meta charset="UTF-8">
-    <meta name="author" content="황병준">
-    <meta name="description" content="황병준의 사이트 입니다 !">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+    <title>GitHub</title>
+    <link rel = "stylesheet" href = "./main.css">
 </head>
-
 <body>
-    <input type="number" pastep="4" max="8" min="1" />
-    <input type="checkbox" checked>
-    <input type="file">
-    <!-- 이 링크는 구글 홈페이지로 이동합니다. -->
-    <a href="http://google.com">Google</a>
+    <div class="header">
+        <div class="container clearfix">
+            <div class="countainer-left clearfix">
+                <div class="logo">
+                    <img src="https://heropcode.github.io/GitHub-Responsive/img/logo.svg" alt="GitHub Logo">
+                </div>
+                <ul class="menu clearfix">
+                    <li class="menu-item">Personnal</li>
+                    <li class="menu-item">Open source</li>
+                    <li class="menu-item">Business</li>
+                    <li class="menu-item">Explore</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

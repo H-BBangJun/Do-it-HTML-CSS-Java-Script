@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub</title>
+    <link rel = "stylesheet" href = "./main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container clearfix">
+            <div class="countainer-left clearfix">
+                <div class="logo">
+                    <img src="https://heropcode.github.io/GitHub-Responsive/img/logo.svg" alt="GitHub Logo">
+                </div>
+                <ul class="menu clearfix">
+                    <li class="menu-item">Personnal</li>
+                    <li class="menu-item">Open source</li>
+                    <li class="menu-item">Business</li>
+                    <li class="menu-item">Explore</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+CSS
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: white;
+    border-bottom: 1px solid lightgray; 
+    width: 980px;
+    margin: auto; 
+  }
+  .container-left {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .logo {
+    margin-right: 5px;
+    float: left; 
+  }
+  .logo img {
+    display: block; 
+  }
+  .menu {
+    float: left; 
+  }
+  .menu-item {
+    font-size: 16px;
+    padding: 8px 10px; 
+    float: left;
+    line-height: 1;  
+  }
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}

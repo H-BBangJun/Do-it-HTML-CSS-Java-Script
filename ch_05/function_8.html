@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>재귀함수</title>
+    <script>
+        var num = 0;
+        function testFnc() {
+            num++;
+            dcument.write(num, "<br>");
+            if(num == 10)return;  //num의 값이 10이면 종료
+
+            testFnc(); // testFnc() 함수를 다시 호출 
+        }
+
+        testFnc();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

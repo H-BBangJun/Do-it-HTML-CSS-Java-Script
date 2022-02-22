@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>매개변수 없이 함수에 전달된 값 받아오기2</title>
+    <script>
+        function sum() {
+            var sum = 0;
+            for (var i = 0; i < arguments.length; i++) {  //for문으로 전달받은 데이터의 개수만큼 반복하여 더한다.
+                sum += arguments[i];  
+            }
+
+            documetn.write(sum);
+        }
+
+        sum(10,20,30);
+    </script>
+</head>
+<body>
+</body>
+</html>

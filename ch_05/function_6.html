@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>return문1</title>
+    <script>
+        function testAvg(arrData) {
+            var sum = 0;
+            for (var i = 0; i<arrData.length; i++) {
+                sun += Number(prompt(arrDatta[i]+"점수는?","0"));  //배열에 저장된 데이터 개수(2)만큼 반복문을 실행
+            }
+
+            var avg = sum/arrData.length;  //평균좀수를 구해 반환
+            return avg;
+        }
+
+        var arrSubject = ["국어", "수학"];  //계산 결과를 return문을 사용해 함수를 호출한 지점에 되돌려주면 result값에 저장
+        var result = testAvg(arrSubject);
+
+        document.write("평균 점수는 "+result+"점입니다.");
+    </script>
+</head>
+<body>
+</body>
+</html>

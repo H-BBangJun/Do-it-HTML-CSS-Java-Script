@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>매개변수 없이 함수에 전달된 값 받아오기1 </title>
+    <script>
+        function sum() {  
+            var sum = arguments[0] + arguments[1] + arguments[2];  //arguments사용시 매개변수를 사용하는 것처렴 함수 호출문의 값을 받을수 있다
+
+            document.write(sum);  //
+        }
+
+        sum(10, 20, 30);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
